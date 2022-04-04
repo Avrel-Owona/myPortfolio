@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.reverse {
+  transform-origin: 50% 50% 0;
+}
+.rotate {
+  transform: rotate(45deg);
+  transform-origin: 50% 50% 0;
+  transition: 0.5s;
+}
+.rotate-none {
+  transform: rotate(0deg);
+  transform-origin: 50% 50% 0;
+  transition: 0.5s;
+}
+
 .span {
   height: 2px;
 }
