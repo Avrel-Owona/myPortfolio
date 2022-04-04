@@ -10,7 +10,7 @@ const Home = () => {
           <div className="flex-col  flex">
             <h3 className="text-white text-xl font-normal italic">Hi</h3>
             <span className="font-bold text-7xl uppercase text-white">
-              Λvrel <br /> OWONΛ <span>Λ</span>
+              Λvrel <br /> OWONΛ
             </span>
             <div className="flex justify-center flex-col border-l-2 ml-12 mt-8 border-white pl-6">
               <span className="text-white font-bold text-xl">
