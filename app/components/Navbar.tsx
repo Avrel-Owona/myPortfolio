@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="justify-center flex items-center flex-shrink-0">
             <Link href={"/"}>
               <h1 className="font-bold text-3xl cursor-pointer uppercase text-white">
-                Avrel
+                ΛV
               </h1>
             </Link>
           </div>

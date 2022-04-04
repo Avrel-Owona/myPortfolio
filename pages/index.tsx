@@ -4,10 +4,31 @@ import SideBar from "../app/components/SideBar";
 const Home = () => {
   return (
     <div>
-      <div className="h-screen absolute bg-black w-screen px-10 sm:px-14">
+      <div className="h-screen absolute bg-black w-screen px-10 sm:px-14 flex items-center">
         <SideBar />
+        <div className="absolute left-64">
+          <div className="flex-col  flex">
+            <h3 className="text-white text-xl font-normal italic">Hi</h3>
+            <span className="font-bold text-7xl uppercase text-white name">
+              Λvrel <br /> OWONΛ
+            </span>
+            <div className="flex justify-center flex-col border-l-2 ml-12 mt-8 border-white pl-6">
+              <span className="text-white font-bold text-xl">
+                Frontend Developer
+              </span>
+              <p className="text-gray-400 font-thin w-full sm:w-4/12 mt-3">
+                A nice guy who just likes to get things done. Programmer and a
+                computer science enthusiast. Building digital products and
+                services. I am currently working at{" "}
+                <a href="#" className="font-bold cursor-pointer">
+                  Bhent Inc
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-
       {/* <Head>
         <title>Template of app</title>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"

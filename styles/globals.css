@@ -5,3 +5,70 @@
 .span {
   height: 2px;
 }
+p {
+  font-size: 15px !important;
+}
+:root {
+  --colorText: white;
+  --blueText: #0a72ef;
+  --blue: #007cf0;
+  --blueSky: #00dfd8;
+  --textMuted: #6c757d;
+}
+.btn:focus {
+  box-shadow: none !important;
+}
+.container {
+  max-width: 90% !important;
+}
+.salutation {
+  font-size: 22px;
+  font-weight: 300;
+}
+.presentation br {
+  display: none !important;
+}
+.salutation br {
+  display: block !important;
+}
+.name-2 {
+  display: none !important;
+}
+.name {
+  background: linear-gradient(160deg, var(--blue), var(--blueSky));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name-2 {
+  background: linear-gradient(90deg, var(--blue), var(--blueSky));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.job {
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 30px !important;
+}
+.presentation {
+  font-weight: 200 !important;
+  height: 98px;
+}
+.btn-hover {
+  width: 0px;
+  height: 0px;
+  transition: height 0.5s, width 0.5s;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: linear-gradient(90deg, var(--blue), var(--blueSky));
+  z-index: -1;
+}
+.btn-collaboration {
+  font-size: 14px !important;
+  overflow: hidden;
+  background: #80808052 !important;
+  width: 150px;
+}
+.btn-collaboration:hover .btn-hover {
+  width: 500px;
+  height: 500px;
+}
