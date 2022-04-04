@@ -3,7 +3,8 @@ import Head from "next/head";
 const Home = () => {
   return (
     <div>
-      <Head>
+      <div className="h-screen bg-black w-screen"></div>
+      {/* <Head>
         <title>Template of app</title>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
                 integrity="sha512-42kB9yDlYiCEfx2xVwq0q7hT4uf26FUgSIZBK8uiaEnTdShXjwr8Ip1V4xGJMg3mHkUt9nNuTDxunHF0/EgxLQ=="
@@ -15,7 +16,7 @@ const Home = () => {
       </div>
         <footer className="text-xs text-gray-100 absolute bottom-0 w-full text-center my-2">
             Art by <span className='font-bold underline cursor-pointer'>Avrel OWONA</span>
-        </footer>
+        </footer> */}
     </div>
   );
 };
