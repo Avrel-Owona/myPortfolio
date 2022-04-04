@@ -1,9 +1,13 @@
 import Head from "next/head";
+import SideBar from "../app/components/SideBar";
 
 const Home = () => {
   return (
     <div>
-      <div className="h-screen bg-black w-screen"></div>
+      <div className="h-screen absolute bg-black w-screen px-10 sm:px-14">
+        <SideBar />
+      </div>
+
       {/* <Head>
         <title>Template of app</title>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css"
