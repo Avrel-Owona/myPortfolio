@@ -18,7 +18,7 @@ const Navbar = () => {
               </h1>
             </Link>
           </div>
-          <button className="hidden md:flex h-10 flex-col items-end justify-center">
+          <button className="hidden md:flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
             <span className="span w-10 bg-white my-1"></span>
             <span className="span w-10 bg-white my-1"></span>
           </button>

@@ -1,25 +1,35 @@
 import Head from "next/head";
+import React, { useRef, useEffect } from "react";
 import SideBar from "../app/components/SideBar";
 
 const Home = () => {
   return (
     <div>
+      <Head>
+        <title>AVREL OWONA - Frontend Developer</title>
+        <meta
+          name="description"
+          content="I like to make things happen and bring the imaginable to life
+      Programmer and a computer science enthusiast."
+        />
+        <link rel="icon" href="/favi.png" />
+      </Head>
       <div className="h-screen absolute bg-black w-screen px-10 sm:px-14 flex items-center">
         <SideBar />
         <div className="absolute left-64">
           <div className="flex-col  flex">
             <h3 className="text-white text-xl font-normal italic">Hi</h3>
-            <span className="font-bold text-7xl uppercase text-white">
-              Λvrel <br /> OWONΛ
+            <span className="font-bold text-7xl uppercase text-white name">
+              Λvrel <br /> owonΛ
             </span>
             <div className="flex justify-center flex-col border-l-2 ml-12 mt-8 border-white pl-6">
               <span className="text-white font-bold text-xl">
                 Frontend Developer
               </span>
               <p className="text-gray-400 font-thin w-full sm:w-4/12 mt-3">
-                A nice guy who just likes to get things done. Programmer and a
-                computer science enthusiast. Building digital products and
-                services. I am currently working at{" "}
+                I like to make things happen and bring the imaginable to life
+                Programmer and a computer science enthusiast. Building digital
+                products and services. I am currently working at{" "}
                 <a href="#" className="font-bold cursor-pointer">
                   Bhent Inc
                 </a>
