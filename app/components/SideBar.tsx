@@ -7,6 +7,9 @@ const SideBar = () => {
   let face = useRef(null);
   let linked = useRef(null);
   console.log(item);
+  function animations () {
+
+  }
 
   useEffect(() => {
     console.log("item", item);

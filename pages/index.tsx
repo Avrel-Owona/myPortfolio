@@ -6,7 +6,19 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>AVREL OWONA - Frontend Developer</title>
+        <title>AVREL OWONA | Frontend Developer</title>
+        <meta name="author" content="AVREL OWONA"/>
+        <meta name="language" content="english" />
+        <meta name="copyright" content="2022 AVREL OWONA" />
+        {/*<meta name='description' content="The most beautiful photographic masterpieces in one place from the world's most generous photography community."/>*/}
+        {/*<link rel="icon" type="image/png" href="/small.png" />*/}
+
+        {/*/!*  =========== Medias =============> *!/*/}
+        {/*<meta property="og:url"                content="https://www.avrelowona.com" />*/}
+        {/*<meta property="og:type"               content="article" />*/}
+        {/*<meta property="og:title"              content="AVREL OWONA | Frontend Developer" />*/}
+        {/*<meta property="og:description"        content="The most beautiful photographic masterpieces in one place from the world's most generous photography community." />*/}
+        {/*<meta property="og:image"              content={'/cover.jpeg'} />*/}
         <meta
           name="description"
           content="I like to make things happen and bring the imaginable to life
