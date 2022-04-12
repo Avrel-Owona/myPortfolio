@@ -40,7 +40,7 @@ const SideBar = () => {
   const [isChecked, setIsChecked] = useState(true);
   console.log(isChecked);
   return (
-    <div className="right-10 sm:right-14 bottom-8 absolute flex flex-col items-center">
+    <div className="right-3 sm:right-14 bottom-3 sm:bottom-8 absolute flex flex-col items-center">
       <div>
         <ul
           className={isChecked ? "flex flex-col items-center mb-3" : "hidden"}
@@ -49,7 +49,7 @@ const SideBar = () => {
             ref={(el: any) => {
               linked = el;
             }}
-            className="font-thin text-white text-sm my-3 social"
+            className="font-thin text-white text-xs sm:text-sm my-3 social"
           >
             Li
           </li>
@@ -57,7 +57,7 @@ const SideBar = () => {
             ref={(el: any) => {
               face = el;
             }}
-            className="font-thin text-white text-sm my-3 social"
+            className="font-thin text-white text-xs sm:text-sm my-3 social"
           >
             Fb
           </li>
@@ -65,7 +65,7 @@ const SideBar = () => {
             ref={(el: any) => {
               insta = el;
             }}
-            className="font-thin text-white text-sm my-3 social"
+            className="font-thin text-white text-xs sm:text-sm my-3 social"
           >
             In
           </li>
@@ -73,7 +73,7 @@ const SideBar = () => {
             ref={(el: any) => {
               item = el;
             }}
-            className="font-thin text-white text-sm my-3 social"
+            className="font-thin text-white text-xs sm:text-sm my-3 social"
           >
             Tw
           </li>

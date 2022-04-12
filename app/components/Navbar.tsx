@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="w-full z-10 shadow-lg bg-black absolute">
       <div className="flex items-center h-20 w-full">
         {/*=========== NAVBAR PC ================*/}
-        <div className="flex items-center mx-10 sm:mx-14 mt-0 sm:mt-6 justify-end flex-row-reverse sm:flex-row sm:justify-between w-full">
+        <div className="flex items-center mx-5 sm:mx-14 mt-0 sm:mt-6 justify-end flex-row-reverse sm:flex-row sm:justify-between w-full">
           <div className="justify-center flex items-center flex-shrink-0">
             <Link href={"/"}>
               <h1 className="font-bold text-3xl cursor-pointer uppercase text-white">
@@ -24,12 +24,20 @@ const Navbar = () => {
           </button>
           {/*=========== NAVBAR PHONE ================*/}
           <div className="flex md:hidden">
-            <button
-              className="mr-3 flex items-center justify-center p-2 text-white focus:outline-none focus:ring-offset-2 focus:ring-white"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              {!isOpen ? <GoThreeBars /> : <AiOutlineClose />}
-            </button>
+
+            {!isOpen ? (
+                <button onClick={() => setIsOpen(!isOpen)} className="mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
+                  <span className="span w-7 bg-white my-1"></span>
+                  <span className="span w-7 bg-white my-1"></span>
+                </button>
+            ) : (
+                <button
+                    className="mr-3 flex items-center justify-center p-2 text-white focus:outline-none focus:ring-offset-2 focus:ring-white"
+                    onClick={() => setIsOpen(!isOpen)}
+                >
+                  <AiOutlineClose />
+                </button>
+            ) }
           </div>
         </div>
       </div>
