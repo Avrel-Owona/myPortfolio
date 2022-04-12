@@ -31,7 +31,7 @@ const Home = () => {
         <div className="absolute left-5 sm:left-14 lg:left-64">
           <div className="flex-col  flex">
             <h3 className="text-white text-xl font-normal italic">Hi</h3>
-            <span className="font-bold mt-3 sm:mt-0 text-5xl sm:text-7xl uppercase text-white ">
+            <span className="font-bold mt-3 sm:mt-0 text-5xl sm:text-7xl uppercase text-white name">
               Λvrel <br /> owonΛ
             </span>
             <div className="flex justify-center flex-col border-l sm:border-l-2 sm:ml-5 sm:ml-12 mt-5 sm:mt-8 border-white pl-4 pr-7 sm:pl-8 sm:pl-6">
