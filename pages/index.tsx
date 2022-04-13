@@ -1,5 +1,5 @@
 import Head from "next/head";
-import React, { useRef, useEffect } from "react";
+import React from "react";
 import SideBar from "../app/components/SideBar";
 
 const Home = () => {
