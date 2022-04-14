@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const Home = () => {
-  return (
+  return ( 
     <div>
       <Head>   
         <title>Template of app</title>
