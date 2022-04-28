@@ -94,7 +94,11 @@ p {
 }
 
  /*============= BURGER ANIMATION ==============>*/
-.burger_button:hover + .burger_wrapper > span {
-  background: blue;
+.check-button:hover + .burger_wrapper > .span {
+  width: 100%;
+  /*transition: all 0.25s;*/
+}
+.span {
+  transition: width 0.2s cubic-bezier(0.1, 0.82, 0.76, 0.965);
 }
  /*============= BURGER ANIMATION ==============>*/

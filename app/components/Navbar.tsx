@@ -18,10 +18,12 @@ const Navbar = () => {
               </h1>
             </Link>
           </div>
-          <button onClick={() => setIsOpen(!isOpen)} className="burger_wrapper relative w-14 mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
-            <input type="checkbox" className='burger_button opacity-0 absolute h-full w-full cursor-pointer bg-red-500 z-40 w-full h-full border'/>
-            <span className="span w-full bg-white my-1"></span>
-            <span className="span w-7 bg-white my-1"></span>
+          <button onClick={() => setIsOpen(!isOpen)} className="relative w-14 mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
+            <input className='check-button opacity-0 h-full w-full absolute cursor-pointer bg-red-500 w-full h-full border'/>
+            <div className='burger_wrapper flex flex-col w-full flex-row-reverse'>
+              <span className="span w-full bg-white my-1"></span>
+              <span className="span w-7 bg-white my-1"></span>
+            </div>
           </button>
           {/*=========== NAVBAR PHONE ================*/}
           <div className="flex md:hidden">
