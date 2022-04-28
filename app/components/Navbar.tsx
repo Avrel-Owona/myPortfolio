@@ -18,33 +18,14 @@ const Navbar = () => {
               </h1>
             </Link>
           </div>
-          <button onClick={() => setIsOpen(!isOpen)} className="relative w-14 mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
+          <button className="relative w-12 sm:w-14 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
             <input className='check-button opacity-0 h-full w-full absolute cursor-pointer bg-red-500 w-full h-full border'/>
-            <div className='burger_wrapper flex flex-col w-full flex-row-reverse'>
-              <span className="span w-full bg-white my-1"></span>
-              <span className="span w-7 bg-white my-1"></span>
+            <div className='burger_wrapper flex flex-col w-full items-start sm:items-end'>
+              <span className="span w-8 sm:w-full bg-white my-1"></span>
+              <span className="span w-8 sm:w-7 bg-white my-1"></span>
             </div>
           </button>
           {/*=========== NAVBAR PHONE ================*/}
-          <div className="flex md:hidden">
-
-            {!isOpen ? (
-                <button onClick={() => setIsOpen(!isOpen)} className="burger_wrapper mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
-                  <input type="checkbox" className='burger_button cursor-pointer bg-red-500 z-40 w-full h-full border'/>
-                  <div>
-                    <span className="span w-7 bg-white my-1"></span>
-                    <span className="span w-7 bg-white my-1"></span>
-                  </div>
-                </button>
-            ) : (
-                <button
-                    className="mr-3 flex items-center justify-center p-2 text-white focus:outline-none focus:ring-offset-2 focus:ring-white"
-                    onClick={() => setIsOpen(!isOpen)}
-                >
-                  <AiOutlineClose />
-                </button>
-            ) }
-          </div>
         </div>
       </div>
       <div className="md:hidden mx-10">
