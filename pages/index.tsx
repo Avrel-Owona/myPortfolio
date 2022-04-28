@@ -42,7 +42,7 @@ const Home = () => {
                 I like to make things happen and bring the imaginable to life
                 Programmer and a computer science enthusiast. Building digital
                 products and services. I am currently working at{" "}
-                <a href="#" className="font-bold cursor-pointer">
+                <a target='_blank' href="https://www.bhent.net" className="font-bold cursor-pointer">
                   Bhent Inc
                 </a>
                 .

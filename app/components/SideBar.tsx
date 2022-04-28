@@ -59,7 +59,7 @@ const SideBar = () => {
               }}
               className="font-thin text-white text-xs sm:text-sm my-3 social cursor-pointer"
           >
-            <a href="https://github.com/Avrel-Owona">
+            <a target='_blank' href="https://github.com/Avrel-Owona">
               Gh
             </a>
           </li>
@@ -69,7 +69,7 @@ const SideBar = () => {
               }}
               className="font-thin text-white text-xs sm:text-sm my-3 social cursor-pointer"
           >
-            <a href="https://www.facebook.com/profile.php?id=100017129581148">
+            <a target='_blank' href="https://www.facebook.com/profile.php?id=100017129581148">
               Fb
             </a>
           </li>
@@ -79,7 +79,7 @@ const SideBar = () => {
             }}
             className="font-thin text-white text-xs sm:text-sm my-3 social cursor-pointer"
           >
-            <a href="https://www.linkedin.com/in/guy-owona-0a9371201/" className='cursor-pointer'>
+            <a target='_blank' href="https://www.linkedin.com/in/guy-owona-0a9371201/" className='cursor-pointer'>
               Li
             </a>
           </li>
@@ -89,7 +89,7 @@ const SideBar = () => {
             }}
             className="font-thin text-white text-xs sm:text-sm my-3 social cursor-pointer"
           >
-            <a href="https://www.instagram.com/sosa_levrai/">
+            <a target='_blank' href="https://www.instagram.com/sosa_levrai/">
               In
             </a>
           </li>
@@ -99,7 +99,7 @@ const SideBar = () => {
             }}
             className="font-thin text-white text-xs sm:text-sm my-3 social cursor-pointer"
           >
-            <a href="https://twitter.com/AvrelOwona">
+            <a target='_blank' href="https://twitter.com/AvrelOwona">
               Tw
             </a>
           </li>
