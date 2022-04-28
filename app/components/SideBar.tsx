@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Power3, TweenMax } from "gsap";
-import Link from "next/link";
 
 const SideBar = () => {
   let item = useRef(null);
@@ -8,13 +7,8 @@ const SideBar = () => {
   let gitHub = useRef(null);
   let face = useRef(null);
   let linked = useRef(null);
-  console.log(item);
-  function animations () {
-
-  }
 
   useEffect(() => {
-    console.log("item", item);
     TweenMax.to(gitHub, 0.2, {
       opacity: 1,
       y: 0,
@@ -46,7 +40,7 @@ const SideBar = () => {
     });
   }, []);
   const [isChecked, setIsChecked] = useState(true);
-  console.log(isChecked);
+
   return (
     <div className="right-3 sm:right-14 bottom-3 sm:bottom-8 absolute flex flex-col items-center z-30">
       <div>
