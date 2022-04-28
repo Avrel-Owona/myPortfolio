@@ -18,17 +18,21 @@ const Navbar = () => {
               </h1>
             </Link>
           </div>
-          <button className="hidden md:flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
-            <span className="span w-10 bg-white my-1"></span>
-            <span className="span w-10 bg-white my-1"></span>
+          <button onClick={() => setIsOpen(!isOpen)} className="burger_wrapper relative w-14 mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
+            <input type="checkbox" className='burger_button opacity-0 absolute h-full w-full cursor-pointer bg-red-500 z-40 w-full h-full border'/>
+            <span className="span w-full bg-white my-1"></span>
+            <span className="span w-7 bg-white my-1"></span>
           </button>
           {/*=========== NAVBAR PHONE ================*/}
           <div className="flex md:hidden">
 
             {!isOpen ? (
-                <button onClick={() => setIsOpen(!isOpen)} className="mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
-                  <span className="span w-7 bg-white my-1"></span>
-                  <span className="span w-7 bg-white my-1"></span>
+                <button onClick={() => setIsOpen(!isOpen)} className="burger_wrapper mr-4 flex h-10 flex-col items-end justify-center focus:outline-none focus:ring-offset-2 focus:ring-white">
+                  <input type="checkbox" className='burger_button cursor-pointer bg-red-500 z-40 w-full h-full border'/>
+                  <div>
+                    <span className="span w-7 bg-white my-1"></span>
+                    <span className="span w-7 bg-white my-1"></span>
+                  </div>
                 </button>
             ) : (
                 <button

@@ -92,3 +92,9 @@ p {
   width: 500px;
   height: 500px;
 }
+
+ /*============= BURGER ANIMATION ==============>*/
+.burger_button:hover + .burger_wrapper > span {
+  background: blue;
+}
+ /*============= BURGER ANIMATION ==============>*/
