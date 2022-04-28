@@ -42,7 +42,7 @@ const SideBar = () => {
   const [isChecked, setIsChecked] = useState(true);
 
   return (
-    <div className="right-3 sm:right-14 bottom-3 sm:bottom-8 absolute flex flex-col items-center z-30">
+    <div className="right-3 sm:right-14 bottom-3 sm:bottom-8 absolute flex flex-col items-end z-30">
       <div>
         <ul
           className={isChecked ? "flex flex-col items-center mb-3" : "hidden"}
@@ -101,10 +101,10 @@ const SideBar = () => {
       </div>
       <button
         onClick={() => setIsChecked(!isChecked)}
-        className="w-12 h-12 relative reverse flex justify-center focus:outline-none focus:ring-offset-2 focus:ring-white"
+        className="w-12 h-12 text-right relative reverse flex justify-end focus:outline-none focus:ring-offset-2 focus:ring-white"
       >
         <span
-          className={`text-white w-full h-full justify-center items-center font-thin text-5xl absolute top-0  right-0 ${
+          className={`text-white w-full h-full justify-center items-end font-thin text-5xl absolute items-end ${
             isChecked ? "rotate" : "rotate-none"
           }`}
         >
